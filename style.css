@@ -113,5 +113,6 @@ body {
   
   /* ✅ ABOUT US PARAGRAPH BELOW */
   .about-us-text-summary {
-  bottom:-10;
+      bottom:-10;
+      width:50%
   }
