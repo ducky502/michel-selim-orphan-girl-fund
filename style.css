@@ -114,16 +114,10 @@ body {
   /* ✅ ABOUT US PARAGRAPH BELOW */
   .about-us-text-summary {
     width: 70%;
-    max-width: 800px;
-    margin: 30px auto;
     text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
+    color:255, 255, 255;
     background-color: #000000;
-    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
     positon:fixed;
     bottom: -10%;
   }
