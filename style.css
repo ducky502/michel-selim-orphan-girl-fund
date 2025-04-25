@@ -113,11 +113,5 @@ body {
   
   /* ✅ ABOUT US PARAGRAPH BELOW */
   .about-us-text-summary {
-    width: 70%;
-    text-align: center;
-    color:255, 255, 255;
-    background-color: #000000;
-    border-radius: 10px;
-    positon:fixed;
-    bottom: -10%;
+  bottom:-10;
   }
