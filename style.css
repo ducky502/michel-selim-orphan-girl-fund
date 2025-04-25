@@ -113,6 +113,15 @@ body {
   
   /* ✅ ABOUT US PARAGRAPH BELOW */
   .about-us-text-summary {
-      bottom:-10;
-      width:50%
-  }
+  position: fixed;         /* Fixes the element relative to the viewport */
+  bottom: -10px;           /* 10 pixels below the visible bottom */
+  left: 50%;               /* Start from the center of the screen */
+  transform: translateX(-50%);  /* Offset half its width to truly center */
+  z-index: 10;             /* Controls stacking - higher = more "on top" */
+  
+  /* Optional styles for visibility */
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
