@@ -125,4 +125,5 @@ body {
   margin-right: auto; /* Centers it horizontally */
   text-align: center; /* Centers the text inside */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
+  bottom:-10%;
 }
